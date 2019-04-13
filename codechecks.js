@@ -70,7 +70,7 @@ async function watchLockFiles() {
 }
 
 async function stressTest() {
-  for (let i = 0; i < 2000; i++) {
+  for (let i = 0; i < 1300; i++) {
     writeFileSync(join(__dirname, "dummy", `${i}.txt`), `dummy test${i}`);
   }
 
