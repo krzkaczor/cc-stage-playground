@@ -34,8 +34,6 @@ module.exports.main = async function main() {
       },
     });
   }
-
-  await stressTest();
 };
 
 async function visReg() {
@@ -67,13 +65,4 @@ async function watchLockFiles() {
       shortDescription: "NPM package lock file is prohibited",
     });
   }
-}
-
-async function stressTest() {
-  for (let i = 0; i < 1300; i++) {
-    writeFileSync(join(__dirname, "dummy", `${i}.txt`), `dummy test${i}`);
-  }
-
-  await codechecks.saveCollection("stress", join(__dirname, "dummy"));
-  await codechecks.getCollection("stress", join(__dirname, "dummy2"));
 }
