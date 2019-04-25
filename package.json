@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "SKIP_PREFLIGHT_CHECK=true PUBLIC_URL=. yarn build && codechecks",
+    "test": "SKIP_PREFLIGHT_CHECK=true PUBLIC_URL=. yarn build && CC_HOST=https://api.super-ci.io/v1 codechecks",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "storybook:screenshots": "storybook-chrome-screenshot -p 9001 --inject-files ./.storybook/disable-animations.js",
