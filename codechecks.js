@@ -9,6 +9,7 @@ const execOptions = { timeout: 100000, cwd: process.cwd(), log: true };
 
 module.exports.main = async function main() {
   await buildSizeWatcher({
+    name: "Frontend build size",
     files: [
       {
         path: "./build/static/js/*.js",

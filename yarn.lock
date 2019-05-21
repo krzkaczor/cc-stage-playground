@@ -999,10 +999,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@codechecks/build-size-watcher@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@codechecks/build-size-watcher/-/build-size-watcher-0.0.14.tgz#30265ed06a123886ad71a0ce8031d5d3cd73ec97"
-  integrity sha512-ZwI2zl+SAW/EP6zilCaqkIROF8EJ2MzSp+dtlBJwlEu+Y27KVhlhPoCrQysRKupcS+gNOtSUOV9/oFTA5xOdhg==
+"@codechecks/build-size-watcher@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@codechecks/build-size-watcher/-/build-size-watcher-0.1.0.tgz#fb823b6eafb116c154e263d4ac39f3893607f8af"
+  integrity sha512-3tACk1kDSfdvs75e8jCRt0prk38c4urdoej6Kx/Ebj61rKO+uNdv8Jz4f7TLexzTAEwMW1VnkqtsSIt2ob4PHA==
   dependencies:
     bytes "^3.0.0"
     get-folder-size "^2.0.0"
