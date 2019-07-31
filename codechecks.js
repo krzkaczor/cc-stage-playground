@@ -48,7 +48,7 @@ async function visReg() {
 
     await codechecks.success({
       name: "Visual Regression",
-      shortDescription: "Changed: 1\n New: 4\n Removed: 0",
+      shortDescription: "some description",
       detailsUrl: codechecks.getArtifactLink("storybook-vis-reg-report/index.html"),
     });
   }
