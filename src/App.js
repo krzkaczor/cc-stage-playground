@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { kebabCase } from "lodash";
 
 class App extends Component {
   onClick = () => {
