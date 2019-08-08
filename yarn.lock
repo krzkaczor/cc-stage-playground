@@ -999,10 +999,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@codechecks/build-size-watcher@^0.2.0-beta.0":
-  version "0.2.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@codechecks/build-size-watcher/-/build-size-watcher-0.2.0-beta.0.tgz#c4adea72cabe0566ebd9bfcd06d9345a8bdd7ccb"
-  integrity sha512-iRnWc6i+hh479MLypaehb5/Ux29TLzteS9pwhLeHM7W4N4+/wJXkmzc+T6jFWHfq5P5viXfulb/8u+q3u9IrHA==
+"@codechecks/build-size-watcher@^0.2.0-beta.1":
+  version "0.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@codechecks/build-size-watcher/-/build-size-watcher-0.2.0-beta.1.tgz#a6dfeaee6df8f9bd14d1e35779d32aa4717ce33f"
+  integrity sha512-M/8fvnng6Bl+SuAZgDgzBsf2y5YkkEIwAsXGvN4XS+q8nwnGFQozZHO8puzCjHFqjaA7P7rw7jo9zYEuryMrFg==
   dependencies:
     bytes "^3.0.0"
     canvas "^2.5.0"

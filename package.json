@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "SKIP_PREFLIGHT_CHECK=true PUBLIC_URL=. yarn build && CC_HOST=https://api.super-ci.io/v1 codechecks",
+    "test": "SKIP_PREFLIGHT_CHECK=true PUBLIC_URL=. yarn build && DEBUG=* CC_HOST=https://api.super-ci.io/v1 codechecks",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "storybook:screenshots": "storybook-chrome-screenshot -p 9001 --inject-files ./.storybook/disable-animations.js",
@@ -28,7 +28,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@codechecks/build-size-watcher": "^0.2.0-beta.0",
+    "@codechecks/build-size-watcher": "^0.2.0-beta.1",
     "@codechecks/client": "^0.1.6-beta.4",
     "@storybook/addon-actions": "^4.1.7",
     "@storybook/addon-links": "^4.1.7",
