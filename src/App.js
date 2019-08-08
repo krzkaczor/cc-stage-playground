@@ -9,12 +9,6 @@ class App extends Component {
     console.log("123123124123");
     console.log("TEEEEEEEEEST");
     console.log("TEEEEEEEEEST2");
-    console.log("asdasdasd");
-    console.log("asdasdasd123123");
-    console.log("Kebab case!: ", kebabCase);
-    console.log("Kebab case!2: ", kebabCase);
-    console.log("Kebab case!3: ", kebabCase);
-    alert("AAAAAAAA this button does nothing!");
   };
 
   render() {
