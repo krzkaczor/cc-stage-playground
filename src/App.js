@@ -5,12 +5,6 @@ import { kebabCase } from "lodash";
 
 class App extends Component {
   onClick = () => {
-    console.log("Test, test, test, test!");
-    console.log("123123124123");
-    console.log("TEEEEEEEEEST");
-    console.log("TEEEEEEEEEST2");
-    console.log("TEEEEEEEEEST2");
-    console.log("TEEEEEEEEEST2");
     console.log(kebabCase("TEEEEEEEEEST2"));
   };
 
