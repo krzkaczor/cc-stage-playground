@@ -1013,10 +1013,10 @@
     tmp-promise "^2.0.2"
     vega "^5.4.0"
 
-"@codechecks/client@^0.1.6-beta.4":
-  version "0.1.6-beta.4"
-  resolved "https://registry.yarnpkg.com/@codechecks/client/-/client-0.1.6-beta.4.tgz#4140d1cfd72a1d0d33c3a254903335f042a8f90b"
-  integrity sha512-v7z7AcSrtlzqBZjXLoEj/vyu4+qvHAiEeRzm6DoQiVeJAut+oA5r+vVqHgXtJNN6A4lT7oLwocNhxUYoWPxeWQ==
+"@codechecks/client@^0.1.6-beta.6":
+  version "0.1.6-beta.6"
+  resolved "https://registry.yarnpkg.com/@codechecks/client/-/client-0.1.6-beta.6.tgz#0a433202e283eba2f88fbf95ca4c0820dd2cb076"
+  integrity sha512-OqEJMCmV1+msyDphgaWG+VFsMlSf7EEA1i3oQSG1orILp0mmoGsM7luvsPqWWlSPAzk3kNvNuVRnyQT0pqWXRw==
   dependencies:
     bluebird "^3.5.3"
     chalk "^2.4.2"
