@@ -24,7 +24,7 @@ class App extends Component {
           >
             Learn React
           </a>
-          <button onClick={this.onClick}>CLICK ME</button>
+          <button onClick={this.onClick}>CLICK ME 2020</button>
         </header>
       </div>
     );
