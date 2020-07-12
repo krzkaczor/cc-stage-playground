@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@codechecks/build-size-watcher": "^0.2.0-beta.4",
-    "@codechecks/client": "^0.1.6-beta.6",
+    "@codechecks/client": "^0.1.10",
     "@storybook/addon-actions": "^4.1.7",
     "@storybook/addon-links": "^4.1.7",
     "@storybook/addons": "^4.1.7",
