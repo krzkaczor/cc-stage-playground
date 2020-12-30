@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { kebabCase } from "lodash";
 
 class App extends Component {
   onClick = () => {
-    console.log("Test, test, test, test!");
-    console.log("123123124123");
-    console.log("TEEEEEEEEEST");
-    console.log("TEEEEEEEEEST2");
+    console.log(kebabCase("TEEEEEEEEEST2"));
   };
 
   render() {
@@ -26,7 +24,7 @@ class App extends Component {
           >
             Learn React
           </a>
-          <button onClick={this.onClick}>CLICK ME</button>
+          <button onClick={this.onClick}>CLICK ME 2020 (almost 2021)</button>
         </header>
       </div>
     );
