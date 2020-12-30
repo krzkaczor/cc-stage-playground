@@ -5,6 +5,8 @@ import { kebabCase } from "lodash";
 
 class App extends Component {
   onClick = () => {
+    alert("dupa");
+    debugger;
     console.log(kebabCase("TEEEEEEEEEST2"));
   };
 
